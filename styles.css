@@ -7,7 +7,7 @@ body{
     background-size: cover;
     text-align: center;
     padding: 16.8%;
-    padding-left: 6.9cm;
+    padding-left: 6cm;
     font-size: 17px;
     
 }
@@ -34,5 +34,11 @@ p{
     font-family: 'Poppins', sans-serif;
     padding: 8.5%;
     padding-left: 6.4cm;
+}
 
+.part3{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    
 }

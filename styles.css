@@ -1,10 +1,19 @@
 
-/* body{ */
-    /* margin: 0%; */
-/* } */
-.part1{
+body{ 
+    margin: 0%;
+ }
+ .part1{
     background-image: url(backgrounds/h_img.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     text-align: center;
+    padding: 17%;
+    padding-left: 5.9cm;
+    font-size: 17px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
 }

@@ -5,11 +5,12 @@ body{
  .part1{
     background-image: url(backgrounds/h_img.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    /* background-repeat: no-repeat;  */
     text-align: center;
-    padding: 17%;
-    padding-left: 5.9cm;
+    padding: 16.8%;
+    padding-left: 6.3cm;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
 }
 h1{
     color: white;
@@ -17,3 +18,8 @@ h1{
 p{
     color: white;
 }
+
+.about-us{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;

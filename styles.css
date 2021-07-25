@@ -5,12 +5,11 @@ body{
  .part1{
     background-image: url(backgrounds/h_img.jpg);
     background-size: cover;
-    /* background-repeat: no-repeat;  */
     text-align: center;
     padding: 16.8%;
-    padding-left: 6.3cm;
+    padding-left: 6.9cm;
     font-size: 17px;
-    Based on your requirements, we can provide a complete offering or just the piece you need.
+    
 }
 h1{
     color: white;
@@ -21,15 +20,19 @@ p{
 
 .about-us{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    padding-left: 4cm;
 }
 
 .part2{
     background-image: url(backgrounds/s_image.jpg);
+    background-size: cover;
     text-align: center;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
+    padding: 8.5%;
+    padding-left: 6.4cm;
 
 }

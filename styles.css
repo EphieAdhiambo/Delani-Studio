@@ -1,0 +1,10 @@
+
+/* body{ */
+    /* margin: 0%; */
+/* } */
+.part1{
+    background-image: url(backgrounds/h_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}

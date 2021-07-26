@@ -145,27 +145,26 @@
     </div>
     <div class="container-fluid p-4">
         <div class="contact-us">
-            <h2 class="text-center text-light p-4">CONTACT US</h2>
-            <form class="form" action="backgrounds/c_image.jpg" method="POST">
-                <div class="container">
-                    <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
-                    <input type="hidden" name="id" value="dbf7e27685">
-                    <input class="contact" type="text" placeholder="Name..." name="name" id="name" required>
+            <h2>CONTACT US</h2>
+            <form class="form">
 
-                    <input class="contact" type="email" placeholder="Email..." name="email" id="email" required>
+                <input type="hidden" name="u" value="">
+                <input type="hidden" name="id" value="">
+                <input class="contact" type="text" placeholder="Name..." name="name" id="name" required>
 
-                    <textarea class="text-light" name="message" id="comment" cols="30" rows="8"
-                        placeholder="Your message here..." required></textarea>
+                <input class="contact" type="email" placeholder="Email..." name="email" id="email" required>
 
-                    <br>
-                    <button class="submit button" onclick="sendMessage()" id="button"
-                        type="submit">Submit</button>
-                </div>
+                <textarea name="message" id="comment" cols="30" rows="8" placeholder="Your message here..."
+                    required></textarea>
+
+                <br>
+                <button class="submit button" onclick="sendMessage()" id="button" type="submit">Submit</button>
+
             </form>
         </div>
     </div>
 
-    
+
     <footer>
         <img src="social_icons/twitter.png">
         <img src="social_icons/dribble.png">

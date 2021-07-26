@@ -72,6 +72,8 @@ p{
     background-image: url(backgrounds/c_image.jpg);
     background-size: cover;
     background-position: center;
+    text-align: center;
+    font-size: 17px;
 }
 .form{
     text-align: center;
@@ -89,8 +91,8 @@ p{
 }
 input[type=text], input[type=email] {
     width: 40%;
-    padding: 12px 0px;
-    margin: 8px 0;
+    /* padding: 12px 0px;
+    margin: 8px 0; */
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;

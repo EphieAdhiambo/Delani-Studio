@@ -8,16 +8,6 @@ $(document).ready(function(){
        $("#design-image").slideDown('1500');
     });
    });
-// $(document).ready(function(){
-//  $(".design-icon").click(function(){
-//      $(".design-icon").slideToggle('2500');
-//      $(".Design").slideToggleShow('2500');
-//  });
-// $(".Design").click(function(){
-//     $(".Design").slideToggle('2500');
-//     $(".design-icon").slideToggle('2500');
-// });
-// });
 
 $(document).ready(function(){
     $("#development-image").click(function(){

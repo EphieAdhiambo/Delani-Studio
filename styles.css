@@ -6,10 +6,9 @@ body{
     background-image: url(backgrounds/h_img.jpg);
     background-size: cover;
     text-align: center;
-    padding: 16.8%;
-    padding-left: 6cm;
+    padding: 14%;
+    padding-left: 8cm;
     font-size: 17px;
-    
 }
 h1{
     color: white;
@@ -40,12 +39,13 @@ p{
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
     text-align: center;
-    /* align-items: baseline; */
+    align-items: baseline;
     font-family: 'Poppins', sans-serif;
   }
   #design,#development,#product{
     display: none;
     /* text-align: center; */
+    align-items: baseline;
   }
   #work4 ,#work3 ,#work2 ,#work1 ,#work5 ,#work6,#work7 ,#work8 {
     position: relative;

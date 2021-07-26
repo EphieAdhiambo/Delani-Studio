@@ -34,60 +34,60 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#work4").mouseover(function(){
-    $("#mouseenter1").show();
+    $("#mouseover1").show();
      });
     $("#work4").mouseout(function(){
-    $("#mouseenter1").hide();
+    $("#mouseover1").hide();
     });
   
 
   $("#work3").mouseover(function(){
-      $("#mouseenter2").show();
+      $("#mouseover2").show();
     })
     $("#work3").mouseout(function(){
-      $("#mouseenter2").hide();
+      $("#mouseover2").hide();
     });
    
     $("#work2").mouseover(function(){
-      $("#mouseenter3").show();
+      $("#mouseover3").show();
     })
     $("#work2").mouseout(function(){
-      $("#mouseenter3").hide();
+      $("#mouseover3").hide();
     });
     
     $("#work1").mouseover(function(){
-      $("#mouseenter4").show();
+      $("#mouseover4").show();
     })
     $("#work1").mouseout(function(){
-      $("#mouseenter4").hide();
+      $("#mouseover4").hide();
     });
     
     $("#work5").mouseover(function(){
-      $("#mouseenter5").show();
+      $("#mouseover5").show();
     })
     $("#work5").mouseout(function(){
-      $("#mouseenter5").hide();
+      $("#mouseover5").hide();
     });
       
     $("#work6").mouseover(function(){
-      $("#mouseenter6").show();
+      $("#mouseover6").show();
     })
     $("#work6").mouseout(function(){
-      $("#mouseenter6").hide();
+      $("#mouseover").hide();
     });
      
     $("#work7").mouseover(function(){
-      $("#mouseenter7").show();
+      $("#mouseover7").show();
     })
     $("#work7").mouseout(function(){
-      $("#mouseenter7").hide();
+      $("#mouseover7").hide();
     });
     
     $("#work8").mouseover(function(){
-      $("#mouseenter8").show();
+      $("#overlay8").show();
     })
     $("#work8").mouseout(function(){
-      $("#mouseenter8").hide();
+      $("#overlay8").hide();
     });
 });
 

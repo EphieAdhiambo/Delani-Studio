@@ -95,11 +95,11 @@ function sendMessage() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
          var message = document.getElementById("comment").value;
- if (email !== "" && name !== "" && message !== "") {
+ if (email!== "" && name!== "" && message!== "") {
    alert(
      "Thank you,we have received your message."
    );
- } else if (email == "" || name !== "" || message !== "") {
+ } else if (email== "" || name== !"" || message== "") {
    alert("Put in your details below!");
  }
 }

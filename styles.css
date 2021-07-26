@@ -41,12 +41,16 @@ p{
     text-align: center;
     align-items: baseline;
     font-family: 'Poppins', sans-serif;
+    font-size: 17px;
   }
   
   #design,#development,#product{
     display: none;
-    /* text-align: center; */
     align-items: baseline;
+  }
+  .portfolio{
+    text-align: center ;
+    font-size: 17px;
   }
   #work4 ,#work3 ,#work2 ,#work1 ,#work5 ,#work6,#work7 ,#work8 {
     position: relative;
@@ -69,14 +73,9 @@ p3{
     font-weight: 1000;
     text-align:inherit;
     font-size: 20px;
-    /* padding-top: 50%; */
     color: black;
     font-family: 'Poppins', sans-serif;
 }
-/* .col-md-3 img{
-    width:100%px;
-    margin: 20px;
-  } */
 
   .contact-us {
     background-image: url(backgrounds/c_image.jpg);
@@ -103,8 +102,6 @@ p3{
 }
 input[type=text], input[type=email] {
     width: 40%;
-    /* padding: 12px 0px;
-    margin: 8px 0; */
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -135,7 +132,4 @@ input[type=text], input[type=email] {
     footer{
         text-align: center;
     }
-    /* footer,img{
-        padding: 5px;
-        padding-top: 10px;
-    } */
+   

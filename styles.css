@@ -40,6 +40,7 @@ p{
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
     text-align: center;
+    align-items: baseline;
   }
   #design,#development,#product{
     display: none;
@@ -66,3 +67,61 @@ p{
     width:100%px;
     margin: 20px;
   }
+
+  .contact-us {
+    background-image: url(backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.form-control{
+  background-color: transparent;
+
+}
+
+.form-control::placeholder {
+  color: #ffffff;
+
+}
+input[type=text], input[type=email] {
+    width: 40%;
+    padding: 12px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  textarea{
+    border: 1px solid #ccc;
+    width: 80%;
+    background: transparent;
+  }
+  textarea{
+      border-radius: 5px;
+    }
+    textarea::placeholder{
+      color: #ffffff;
+    }
+    button {
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: auto;
+        background: transparent;
+      }
+    button:hover {
+      opacity: 0.8;
+    }
+    footer{
+        text-align: center;
+    }
+    footer,img{
+        padding: 5px;
+        padding-top: 10px;
+    }

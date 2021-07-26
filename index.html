@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani-studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
@@ -52,8 +54,8 @@
     <div class="container-fluid p-4">
         <div id="What-we-do">
             <h2>WHAT WE DO</h2>
-        <div class="row">
-            <div class="col1">
+            <div class="row text-center p-4"></div>
+            <div class="col-md-4">
                 <div id="design-image">
                     <img src="what-about-us_icons/design_icon.png" alt="design-logo">
                     <h4>DESIGN</h4>
@@ -66,13 +68,14 @@
                         needed.</p3>
                 </div>
             </div>
-            <div class="col2">
+            <div class="col-md-4">
                 <div id="development-image">
                     <img src="what-about-us_icons/dev_icon.png" alt="development icon">
                     <h4>DEVELOPMENT</h4>
                 </div>
                 <div id="development">
-                    <p3>All engineers are fluent in the latest enterprise,mobile and web development technologies.
+                    <p3>All engineers are fluent in the latest enterprise,mobile and web development
+                        technologies.
                     </p3>
                     <p3>They collaborate with your team to write and improve code on a daily basis, using proven
                         practices
@@ -82,19 +85,21 @@
                     </p3>
                 </div>
             </div>
-            <div class="col3">
+            <div class="col-md-4">
                 <div id="product-image">
                     <img src="what-about-us_icons/product_icon.png">
                     <h4>PRODUCT MANAGEMENT</h4>
                 </div>
                 <div id="product">
-                    <p3>Planning and development is iterative.Because we are constantly coding and testing,the
+                    <p3>Planning and development is iterative.Because we are constantly coding and
+                        testing,the
                         products
                         we build are ready to go live.
                     </p3>
                     <p3>This iterative process allows for changes as bussiness requirements evolve.</p3>
                 </div>
             </div>
+
         </div>
     </div>
     <div class="container">
@@ -138,7 +143,43 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid p-4">
+        <div class="contact-us">
+            <h2 class="text-center text-light p-4">CONTACT US</h2>
+            <form class="form" action="backgrounds/c_image.jpg" method="POST">
+                <div class="container">
+                    <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
+                    <input type="hidden" name="id" value="dbf7e27685">
+                    <input class="form-control" type="text" placeholder="Enter Name" name="name" id="name" required>
 
+                    <input class="form-control" type="email" placeholder="Enter email" name="email" id="email" required>
+
+                    <textarea class="text-light" name="message" id="comment" cols="30" rows="8"
+                        placeholder="Enter your message" required></textarea>
+
+                    <br>
+                    <button class="btn btn-outline-light" onclick="myMessage()" id="button"
+                        type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+    <footer>
+        <img src="social_icons/twitter.png">
+        <img src="social_icons/dribble.png">
+        <img src="social_icons/dribble.png">
+        <img src="social_icons/g_plus.png">
+        <img src="social_icons/skype.png">
+        <img src="social_icons/stumble_upon.png">
+        <img src="social_icons/behance.png">
+        <img src="social_icons/pinterest.png">
+        <img src="social_icons/flickr.png">
+        <br> <br>
+        <p3>DELANI STUDIO<br>
+            2021</p3>
+    </footer>
 </body>
 
 </html>

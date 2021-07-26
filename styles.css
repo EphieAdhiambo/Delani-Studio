@@ -46,12 +46,12 @@ p{
     display: none;
     text-align: center;
   }
-  #work ,#work1 ,#work2 ,#work3 ,#work4 ,#work5 ,#work6 ,#work7 {
+  #work4 ,#work3 ,#work2 ,#work1 ,#work5 ,#work6,#work7 ,#work8 {
     position: relative;
     height: 300px;
 
 }
-#mouseenter,#mouseenter1,#mouseenter2,#mouseenter3,#mouseenter4,#mouseenter5,#mouseenter6,#mouseenter7{
+#mouseenter1,#mouseenter2,#mouseenter3,#mouseenter4,#mouseenter5,#mouseenter6,#mouseenter7,#mouseenter8{
     display: none;
     width: 100%;
     height: 100%;
